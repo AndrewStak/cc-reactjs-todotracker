@@ -3,17 +3,17 @@ import Button from './Button';
 
 type HeaderProps = {
     title: string;
+    showAdd:boolean;
+    onAdd:any;
 }
 
-const addClick = (e: React.MouseEvent<HTMLElement, MouseEvent>) => {
-    console.log('Add Button Click');
-}
-
-const Header: React.FC<HeaderProps> = ({ title }) => {
+const Header: React.FC<HeaderProps> = (ps) => {
     return (
-        <header>
-            <h1>{title}</h1>
-            <Button color='green' text='Add' onClick={addClick} />
+        <header className='header'>
+            <h1>{ps.title}</h1>
+            <Button color={ps.showAdd? 'red':'green'}
+             text={ps.showAdd? 'Close':'Add'}             
+             onClick={ps.onAdd} />
         </header>
     );
 }
