@@ -13,8 +13,8 @@ const Tasks:React.FC<TasksProps> = ({tasks,onDelete, onToggle}) => {
     return (
         <div>
             {
-                tasks.map((task) => (                    
-                    <Task key={task.id} task={task} 
+                tasks.map((task,index) => (                    
+                    <Task key={index} task={task} 
                     onToggle={onToggle} onDelete={onDelete}/>
                 ))
             }

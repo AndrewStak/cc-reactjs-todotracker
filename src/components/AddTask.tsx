@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
+import { TaskModel } from '../models';
 
 type AddTaskProps = {
-    onAdd:any;
+    onAdd:(task:TaskModel)=>void;
 }
 
 const AddTask:React.FC<AddTaskProps> = (ps) => {
