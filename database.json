@@ -1,34 +1,16 @@
 {
   "tasks": [
     {
-      "id": 2,
-      "text": "Meeting at School",
-      "day": "Feb 6th at 1:30pm",
+      "id": 1,
+      "text": "Dental Appointment",
+      "day": "April 6th at 12:30pm",
       "reminder": true
     },
     {
-      "text": "asdasd",
-      "day": "asdasd",
-      "reminder": true,
-      "id": 3
-    },
-    {
-      "text": "asdasd",
-      "day": "asdasd",
-      "reminder": true,
-      "id": 4
-    },
-    {
-      "text": "67jujghj",
-      "day": "tyujtyjfj",
-      "reminder": true,
-      "id": 5
-    },
-    {
-      "text": "hello",
-      "day": "sfdsfdsf",
-      "reminder": true,
-      "id": 6
-    }
+      "id": 2,
+      "text": "Team Meeting",
+      "day": "May 8th at 13:30pm",
+      "reminder": false
+    }    
   ]
 }

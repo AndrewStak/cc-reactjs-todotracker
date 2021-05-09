@@ -6,6 +6,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `yarn dbserver`
+
+Runs the JSON server for the database json.\
+Open [http://localhost:5000](http://localhost:5000) to view Home in the browser.\
+Open [http://localhost:5000/tasks](http://localhost:5000/tasks) to view all the tasks in the browser.\
+Open [http://localhost:5000/tasks/1](http://localhost:5000/tasks/1) to view specific task in the browser.
+
+
 ### `yarn start`
 
 Runs the app in the development mode.\
